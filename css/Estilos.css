@@ -1,0 +1,133 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 17 ago. 2022, 21:09:29
+    Author     : nicolas
+
+
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#header{
+    margin: auto;
+    width: 500px;
+    font-family: Arial, helvetica, sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+.nav li a {
+    background-color: gray;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px, 15px;
+    display: block;
+}
+.nav li a:hover {
+    background-color: #000;
+}
+.nav li ul:hover > li {
+    display: block;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    
+}
+.nav > li {
+    float: left;
+    
+}
+#header{
+    background-image:url(doc/fondo pagina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 1800px;
+    background-size: cover;
+}
+    
+.header-shadow{
+    
+   background-image:url(..doc/fondo pagina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 180px;
+    background-size: cover;
+    width:180px;
+    position:absolute;
+    top: 705px;
+    display: block;
+    left: 348px
+}
+div{
+     background-image:url(doc/fondo pagina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 1800px;
+    background-size: cover;
+    
+}
+body{
+    background-image:url(doc/fondo pagina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 1800px;
+    background-size: cover;
+}
+
+
+section{
+    color: blue;
+}
+p {
+color: red;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    padding: 8px;
+    background-color: gray;
+}
+section article{
+    color:greenyellow;
+    
+}
+body {
+  
+  background-image:url();
+  
+}
+/*Estilo de los h1 dentro de footer*/
+footer h1{
+color:#FFFFFF;
+margin-top:5px;
+margin-bottom:15px;
+}
+
+/*Estilo de los elementos de una lista en el footer*/
+footer {
+color:blue;
+list-style:none;
+display:inline;
+margin-right:70px;
+margin-bottom:10px;
+}
